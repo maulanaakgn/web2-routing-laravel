@@ -16,4 +16,16 @@ class PostController extends Controller
     public function index(): view{
         return view('posts.index');
     }
+
+    public function view() {
+        return view('posts.view');
+    }
+
+    public function edit() {
+        return view('posts.edit');
+    }
+
+    public function login() {
+        return view('posts.login');
+    }
 }
